@@ -158,7 +158,7 @@ function checkAnswers() {
     givePoints(q4);
     givePoints(q5);
 
-    TS.innerHTML = "Total Score: " + totalScore;
+    TS.innerHTML = "Total Score: " + totalScore + " / 25";
 
 }
 // -----------------------------------------------------------------------------

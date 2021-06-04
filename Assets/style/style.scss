@@ -96,8 +96,13 @@ nav {
 
 #quizPage {
   overflow: auto;
-  display: block;
+  display: grid;
+  justify-content: center;
+  align-content: initial;
+  gap: 10px;
   p {
-    text-align: left;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
   }
 }
