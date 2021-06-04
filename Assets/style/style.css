@@ -13,11 +13,11 @@ html {
 }
 
 .left {
-  transform: translateX(-100vw) translateY(-42%) !important;
+  transform: translateX(-300vw) translateY(-42%) !important;
 }
 
 .right {
-  transform: translateX(100vw) translateY(-42%) !important;
+  transform: translateX(300vw) translateY(-42%) !important;
 }
 
 .CenterContainer {
@@ -107,5 +107,14 @@ nav {
   text-align: center;
   font-weight: 600;
   font-size: 18px;
+}
+
+@media (max-width: 480px) {
+  .CenterContainer {
+    width: 90%;
+  }
+  footer {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
