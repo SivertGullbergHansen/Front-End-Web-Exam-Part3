@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "Ian Rogers",
+    "Age": 24,
+    "City": "Nobesuv",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Sivert",
+    "Age": 22,
+    "City": "Gjøvik",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Janie Walters",
+    "Age": 23,
+    "City": "Ubkuwgiw",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Randall Rodgers",
+    "Age": 22,
+    "City": "Logsotref",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Nathaniel Collins",
+    "Age": 21,
+    "City": "Serodve",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Birdie Gross",
+    "Age": 24,
+    "City": "Jecovcoz",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Leila Day",
+    "Age": 23,
+    "City": "Adrapho",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Randy Poole",
+    "Age": 24,
+    "City": "Saknukdom",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Miguel Moreno",
+    "Age": 25,
+    "City": "Pemeuce",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Maurice Gibbs",
+    "Age": 21,
+    "City": "Luasso",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Dennis Douglas",
+    "Age": 24,
+    "City": "Nobesuv",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Marion Neal",
+    "Age": 22,
+    "City": "Gjøvik",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Ida Quinn",
+    "Age": 23,
+    "City": "Ubkuwgiw",
+    "Relation": "Family"
+  },
+  {
+    "Name": "Ellen French",
+    "Age": 22,
+    "City": "Logsotref",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Josephine Dawson",
+    "Age": 21,
+    "City": "Serodve",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Violet Pratt",
+    "Age": 24,
+    "City": "Jecovcoz",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Alex Schneider",
+    "Age": 23,
+    "City": "Adrapho",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Mason Weber",
+    "Age": 24,
+    "City": "Saknukdom",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "David Beck",
+    "Age": 25,
+    "City": "Pemeuce",
+    "Relation": "Friend"
+  },
+  {
+    "Name": "Marie Medina",
+    "Age": 21,
+    "City": "Luasso",
+    "Relation": "Friend"
+  }
+]

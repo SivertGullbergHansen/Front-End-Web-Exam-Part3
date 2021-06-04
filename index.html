@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries List</title>
+    <link rel="stylesheet" href="Assets/style/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/images/favicon-16x16.png">
+    <link rel="manifest" href="Assets/images/site.webmanifest">
+</head>
+
+<body>
+    <nav>
+        <button onclick="displayPage(homePage);" id="homeButton">Home</button>
+        <button onclick="displayPage(listsPage);" id="listsButton">Lists</button>
+        <button onclick="displayPage(quizPage);" id="quizButton">Quiz</button>
+        <button onclick="displayPage(contactPage);" id="contactButton">Contact</button>
+    </nav>
+    <div id="homePage" class="CenterContainer">
+        <h1>Home</h1>
+        <p>Hello!👋</p>
+        <img src="https://sivert.xyz/wp-content/uploads/2020/05/asdasd.png" alt="My logo">
+        <p>My name is Sivert, I am 22 years old and I enjoy coding 💻</p>
+    </div>
+    <div id="listsPage" class="CenterContainer right">
+        <h1>Lists</h1>
+        <table id="table">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Relation</th>
+            </tr>
+        </table>
+
+    </div>
+    <div id="quizPage" class="CenterContainer left">
+        <h1>Quiz</h1>
+        <form onsubmit="checkAnswers(); return false;">
+            <p>How much wood can a woodchuck chuck if a woodchuck could chuck wood?</p>
+            <input type="radio" id="q1a1" name="q1">
+            <label for="q1a1">317.514659 kilograms</label><br>
+            <input type="radio" id="q1a2" name="q1">
+            <label for="q1a2">Nothing</label><br>
+            <input type="radio" id="q1a3" name="q1">
+            <label for="q1a3">642.135659 kilograms</label>
+            <br>
+            <p>What is the speed of light?</p>
+            <input type="radio" id="q2a1" name="q2">
+            <label for="q2a1">399 792 458 m / s</label><br>
+            <input type="radio" id="q2a2" name="q2">
+            <label for="q2a2">299 792 458 m / s</label><br>
+            <input type="radio" id="q2a3" name="q2">
+            <label for="q2a3">199 792 458 m / s</label>
+            <br>
+            <p>What year did the moon landing occur?</p>
+            <input type="radio" id="q3a1" name="q3">
+            <label for="q3a1">1979</label><br>
+            <input type="radio" id="q3a2" name="q3">
+            <label for="q3a2">1965</label><br>
+            <input type="radio" id="q3a3" name="q3">
+            <label for="q3a3">1969</label>
+            <br>
+            <p>What is the name of our galaxy?</p>
+            <input type="radio" id="q4a1" name="q4">
+            <label for="q4a1">The Milky Way Galaxy</label><br>
+            <input type="radio" id="q4a2" name="q4">
+            <label for="q4a2">The Andromeda Galaxy</label><br>
+            <input type="radio" id="q4a3" name="q4">
+            <label for="q4a3">The Triangulum Galaxy</label>
+            <br>
+            <p>How old is Sivert?</p>
+            <input type="radio" id="q5a1" name="q5">
+            <label for="q5a1">23</label><br>
+            <input type="radio" id="q5a2" name="q5">
+            <label for="q5a2">22</label><br>
+            <input type="radio" id="q5a3" name="q5">
+            <label for="q5a3">24</label>
+            <br>
+            <input type="submit" value="Submit">
+            <p id="totalScore">Total Score:</p>
+        </form>
+    </div>
+    <div id="contactPage" class="CenterContainer left">
+        <h1>Contact Form</h1>
+        <p>Input your details and we will contact you via E-Mail shortly!</p>
+        <input placeholder="Firstname" type="text" id="inputFirstName">
+        <input placeholder="Lastname" type="text" id="inputLastName">
+        <input placeholder="Age" type="number" id="inputAge">
+        <input placeholder="E-Mail" type="email" id="inputEmail">
+        <input placeholder="Address" type="text" id="inputAddress">
+        <input placeholder="City" type="text" id="inputCity">
+        <button id="buttonAdd" onclick="AddToList();">Submit</button>
+    </div>
+    <footer>
+        <p>🚀 Sivert Gullberg Hansen</p>
+        <a target="_blank" href="https://www.ntnu.edu/"><img src="Assets/images/ntnu_bredde_eng_neg.png"
+                alt="Norwegian university of science and technology's logo and slogan"></a>
+        <p>This is part of a submission for an exam of the course IDG1011 Front-end web utvikling</p>
+    </footer>
+</body>
+
+</html>
+<script src="Assets/js/app.js"></script>
